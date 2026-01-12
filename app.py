@@ -6,7 +6,12 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # הגדרות עמוד
-st.set_page_config(page_title="ניהול משכנתא חכם", layout="wide")
+st.set_page_config(
+    page_title="ניהול משכנתא חכם",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    theme={"base": "light"}
+)
 
 # עיצוב CSS מינימליסטי ובנקאי
 st.markdown("""
