@@ -3,4 +3,3 @@ pandas
 plotly
 pyodbc
 python-dateutil
-os
