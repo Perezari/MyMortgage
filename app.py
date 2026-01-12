@@ -207,7 +207,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-DATA_FILE = "C:/Users/ari/Documents/GitHub/Streamlight Projects/MyMortgage/mortgage_data.csv"
+DATA_FILE = "mortgage_data.csv"
 
 def load_data():
     if os.path.exists(DATA_FILE):
