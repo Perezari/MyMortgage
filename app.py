@@ -9,8 +9,7 @@ import plotly.graph_objects as go
 st.set_page_config(
     page_title="ניהול משכנתא חכם",
     layout="wide",
-    initial_sidebar_state="expanded",
-    theme={"base": "light"}
+    initial_sidebar_state="expanded"
 )
 
 # עיצוב CSS מינימליסטי ובנקאי
